@@ -99,9 +99,11 @@ void jsonRead() {
 
 }
 
-void main() {
+int main() {
 	printf("Json 파일 쓰기\n");
 	jsonWrite();
 	printf("\n\nJson 파일 읽기\n");
 	jsonRead();
+
+	return 0;
 }
