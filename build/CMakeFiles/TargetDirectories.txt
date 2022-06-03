@@ -1,0 +1,3 @@
+/home/kenonix/Documents/GitHub/json_reader/build/CMakeFiles/rebuild_cache.dir
+/home/kenonix/Documents/GitHub/json_reader/build/CMakeFiles/edit_cache.dir
+/home/kenonix/Documents/GitHub/json_reader/build/CMakeFiles/programs.dir
