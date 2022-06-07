@@ -1,0 +1,237 @@
+{
+    "annotations": [
+        {
+            "id": "184af268-cb20-49c0-8be4-88373b70e606",
+            "type": "bbox",
+            "attributes": {
+                "목적차량(특장차)": "구급차"
+            },
+            "points": [
+                [
+                    395,
+                    448
+                ],
+                [
+                    676,
+                    448
+                ],
+                [
+                    676,
+                    738
+                ],
+                [
+                    395,
+                    738
+                ]
+            ],
+            "label": "목적차량(특장차)"
+        },
+        {
+            "id": "87aa6931-7d66-43a8-a96b-85a0b86aff6e",
+            "type": "bbox",
+            "attributes": {
+                "일반차량": "세단"
+            },
+            "points": [
+                [
+                    702,
+                    545
+                ],
+                [
+                    960,
+                    545
+                ],
+                [
+                    960,
+                    715
+                ],
+                [
+                    702,
+                    715
+                ]
+            ],
+            "label": "일반차량"
+        },
+        {
+            "id": "a9fd9a04-dd6d-4f45-9098-5467b8149ebb",
+            "type": "bbox",
+            "attributes": {
+                "일반차량": "세단"
+            },
+            "points": [
+                [
+                    972,
+                    549
+                ],
+                [
+                    1135,
+                    549
+                ],
+                [
+                    1135,
+                    766
+                ],
+                [
+                    972,
+                    766
+                ]
+            ],
+            "label": "일반차량"
+        },
+        {
+            "id": "446affd3-c5e7-489f-9263-591b98b1686b",
+            "type": "bbox",
+            "attributes": {
+                "일반차량": "SUV/승합차"
+            },
+            "points": [
+                [
+                    1079,
+                    479
+                ],
+                [
+                    1920,
+                    479
+                ],
+                [
+                    1920,
+                    869
+                ],
+                [
+                    1079,
+                    869
+                ]
+            ],
+            "label": "일반차량"
+        },
+        {
+            "id": "da3ecd98-eb1d-40e6-b6de-bfb7675226ba",
+            "type": "bbox",
+            "attributes": {
+                "일반차량": "SUV/승합차"
+            },
+            "points": [
+                [
+                    0,
+                    485
+                ],
+                [
+                    348,
+                    485
+                ],
+                [
+                    348,
+                    655
+                ],
+                [
+                    0,
+                    655
+                ]
+            ],
+            "label": "일반차량"
+        },
+        {
+            "id": "87fcb2f7-fb0c-4a68-bdad-fcd72e8f8b1c",
+            "type": "bbox",
+            "attributes": {
+                "일반차량": "트럭"
+            },
+            "points": [
+                [
+                    0,
+                    623
+                ],
+                [
+                    581,
+                    623
+                ],
+                [
+                    581,
+                    1075
+                ],
+                [
+                    0,
+                    1075
+                ]
+            ],
+            "label": "일반차량"
+        },
+        {
+            "id": "eaf15962-4540-4342-9085-f6701653ce9c",
+            "type": "bbox",
+            "attributes": {
+                "일반차량": "세단"
+            },
+            "points": [
+                [
+                    0,
+                    510
+                ],
+                [
+                    332,
+                    510
+                ],
+                [
+                    332,
+                    654
+                ],
+                [
+                    0,
+                    654
+                ]
+            ],
+            "label": "일반차량"
+        },
+        {
+            "id": "43d39ac3-be19-44df-93fc-5d6a2a6a3649",
+            "type": "bbox",
+            "attributes": {
+                "이륜차": "오토바이"
+            },
+            "points": [
+                [
+                    955,
+                    565
+                ],
+                [
+                    1050,
+                    565
+                ],
+                [
+                    1050,
+                    644
+                ],
+                [
+                    955,
+                    644
+                ]
+            ],
+            "label": "이륜차"
+        }
+    ],
+    "attributes": {},
+    "file_id": "5ffffe26207ca95dfc60aea3",
+    "filename": "20201125_경기도_성남시_분당구_맑음_주간_실외_front_0025740.png",
+    "parent_path": "/20201125_경기도_front_5_0006",
+    "last_modifier_id": "5ff5b8a8cc0b71a3d8da8514",
+    "info": {
+        "date_created": "20201125",
+        "location_si": "경기도",
+        "location_gun": "성남시",
+        "location_gu": "분당구",
+        "weather": "맑음",
+        "time": "주간",
+        "type": "실외"
+    },
+    "camera": {
+        "type": "front",
+        "channel": "1",
+        "pixel": "2M",
+        "angle": "120",
+        "resolution_width": "1920",
+        "resolution_height": "1080",
+        "framerate": "30",
+        "location_height": "120",
+        "location_distance": "200"
+    }
+}

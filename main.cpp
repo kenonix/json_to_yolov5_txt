@@ -4,50 +4,52 @@
 
 #pragma comment(lib, "jsoncpp.lib")
 
+int numcount = 0;
 
 using namespace std;
 
-// void jsonWrite() {
-// 	ofstream json_file;
-// 	json_file.open("d:\\JSON_DATA.json");
 
-// 	Json::Value Computer;
-// 	Computer["CPU"] = "I7";
-// 	Computer["RAM"] = "16G";
+void jsonWrite() {
+	ofstream json_file;
+	json_file.open("d:\\JSON_DATA.json");
 
-// 	Json::Value Language;
-// 	Language["C++"] = "Visual Studio";
-// 	Language["Python"] = "IDLE";
+	Json::Value Computer;
+	Computer["CPU"] = "I7";
+	Computer["RAM"] = "16G";
 
-// 	Computer["Program"] = Language;
-// 	Computer["HDD"] = "2TB";
+	Json::Value Language;
+	Language["C++"] = "Visual Studio";
+	Language["Python"] = "IDLE";
 
-// 	Json::Value Cable;
-// 	Cable.append("Power");
-// 	Cable.append("Printer");
-// 	Cable.append("Mouse");
+	Computer["Program"] = Language;
+	Computer["HDD"] = "2TB";
 
-// 	Computer["Computer"]["Cable"] = Cable;
+	Json::Value Cable;
+	Cable.append("Power");
+	Cable.append("Printer");
+	Cable.append("Mouse");
 
-// 	Json::Value number;
-// 	number["Int"] = 123;
-// 	number["Double"] = 456.012;
-// 	number["Bool"] = true;
+	Computer["Computer"]["Cable"] = Cable;
 
-// 	Computer["Computer"]["Number"] = number;
+	Json::Value number;
+	number["Int"] = 123;
+	number["Double"] = 456.012;
+	number["Bool"] = true;
 
-// 	Json::StreamWriterBuilder builder;
-// 	builder["commentStyle"] = "None";
-// 	builder["indentation"] = "    ";  // Tab
-// 	unique_ptr<Json::StreamWriter> writer(builder.newStreamWriter());
+	Computer["Computer"]["Number"] = number;
 
-// 	// 알파벳 순으로 write 된다.
-// 	writer->write(Computer, &cout);
-// 	writer->write(Computer, &json_file);
-// 	cout << endl;  // add lf and flush
+	Json::StreamWriterBuilder builder;
+	builder["commentStyle"] = "None";
+	builder["indentation"] = "    ";  // Tab
+	unique_ptr<Json::StreamWriter> writer(builder.newStreamWriter());
 
-// 	json_file.close();
-// }
+	// 알파벳 순으로 write 된다.
+	writer->write(Computer, &cout);
+	writer->write(Computer, &json_file);
+	cout << endl;  // add lf and flush
+
+	json_file.close();
+}
 
 void jsonRead() {
 	ifstream json_dir("0025739.json");
@@ -63,10 +65,15 @@ void jsonRead() {
 	if (ok == true)
 	{
 
-		cout << "ID: " << value["annotations"]["id"] << endl;
-		cout << "Type: " << value["annotations"]["type"] << endl;
-		cout << "label: " << value["annotations"]["label"]<< endl;
-		cout << "points: " << value["annotations"]["points"][0] << endl;
+		cout << "ID: " << value["annotations"][0]["id"] << endl;
+		cout << "Type: " << value["annotations"][0]["type"] << endl;
+		cout << "label: " << value["annotations"][3]["label"].asString()<< endl;
+		//char *line[100];
+		//`printf("%s ",value["annotations"][3]["label"].getString(line,line));
+		cout << "points: " << value["annotations"][0]["points"]<< endl;
+		cout << "points: " << value["annotations"][0]["points"][0]<< endl;
+		cout << "points: " << value["annotations"][0]["points"][1]<< endl;
+		cout << "points: " << value["annotations"][0]["points"][2]<< endl;
 		cout << endl;
 
 		// cout << "CPU: " << value["CPU"] << endl;
