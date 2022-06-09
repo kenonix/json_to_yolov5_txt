@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun  7 20:45:32 2022
+# Make data base, printed on Thu Jun  9 23:31:07 2022
 
 # Variables
 
@@ -19,7 +19,7 @@ GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
 SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-d2f4be13-6ead-4193-bffc-56fab75079c8.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-49c1179b-30d3-48fe-b306-a873680b49c7.sock
 # environment
 LC_NAME = ko_KR.UTF-8
 # environment
@@ -63,11 +63,11 @@ XAUTHORITY = /run/user/1000/gdm/Xauthority
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.93
+GNOME_TERMINAL_SERVICE = :1.103
 # makefile
 MAKEFLAGS = pqrR
 # environment
-DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=1b0e3b5c281f26ed38f880d1629f3a37
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=04011619538a2cda3e5d934e62a1c3f3
 # makefile
 CURDIR := /home/kenonix/Documents/GitHub/json_reader
 # environment
@@ -97,19 +97,19 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 5588
+VSCODE_PID = 55189
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/kenonix-main:@/tmp/.ICE-unix/3244,unix/kenonix-main:/tmp/.ICE-unix/3244
+SESSION_MANAGER = local/kenonix-main:@/tmp/.ICE-unix/2189,unix/kenonix-main:/tmp/.ICE-unix/2189
 # automatic
 *F = $(notdir $*)
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=1b0e3b5c281f26ed38f880d1629f3a37
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=04011619538a2cda3e5d934e62a1c3f3
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
@@ -129,7 +129,7 @@ XMODIFIERS = @im=fcitx
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/d6811851_3712_4d7e_93c3_81928a8bb278
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/8ab42627_2259_4381_b7df_fb2b058be03a
 # environment
 MAKELEVEL := 0
 # default
@@ -181,7 +181,7 @@ PLATFORMIO_PATH = /home/kenonix/.platformio/python3/bin:/home/kenonix/.local/bin
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 3244
+SYSTEMD_EXEC_PID = 2189
 # environment
 DISPLAY = :1
 # environment
@@ -253,9 +253,9 @@ LC_IDENTIFICATION = ko_KR.UTF-8
 
 # Directories
 
-# . (device 64769, inode 2241185): 12 files, no impossibilities.
+# . (device 64769, inode 2241185): 16 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 16 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -308,12 +308,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 20 / storage = 184 B / avg = 9 B
-# current buf: size = 8162 B / used = 184 B / count = 20 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 24 / storage = 221 B / avg = 9 B
+# current buf: size = 8162 B / used = 221 B / count = 24 / avg = 9 B
 
-# strcache performance: lookups = 23 / hit rate = 13%
+# strcache performance: lookups = 27 / hit rate = 11%
 # hash-table stats:
-# Load=20/8192=0%, Rehash=0, Collisions=0/23=0%
-# Finished Make data base on Tue Jun  7 20:45:32 2022
+# Load=24/8192=0%, Rehash=0, Collisions=0/27=0%
+# Finished Make data base on Thu Jun  9 23:31:07 2022
 
  
